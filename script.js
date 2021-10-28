@@ -1,7 +1,7 @@
-import * as THREE from './three.js/build/three.module.js'
-import { OrbitControls } from './three.js/examples/jsm/controls/OrbitControls.js'
-import Stats from './three.js/examples/jsm/libs/stats.module.js'
-import * as dat from './three.js/examples/jsm/libs/dat.gui.module.js'
+import * as THREE from './three/three.module.js'
+import { OrbitControls } from './three/OrbitControls.js'
+import Stats from './three/stats.module.js'
+import * as dat from './three/dat.gui.module.js'
 
 // Canvas
 const canvas = document.querySelector('.webgl')
